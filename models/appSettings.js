@@ -7,9 +7,9 @@
     
     // Configure the OAuth options to match your app.
     appSettings.oauthOptions = {
-        clientId : "{your app clientId from AAD}"
-        ,clientSecret : "your app key from AAD"
-        ,tenantId : "{your tenantId GUID from AAD}"
+        clientId : "b317cf85-90b1-41e9-82b0-a9f6d1d86c2e"
+        ,clientSecret : "QeKWkc/5DjKHfC0yrAAA6IwOZIjC7dXWgwKZzehueQQ="
+        ,tenantId : "ade62594-2084-4f1f-9e2e-7ac883c5cd60"
         ,resource : "https://api.office.com/discovery/"
         // The redirectURL is set in AAD. For the following redirectURL,  
         //,redirectURL : "http://localhost:1337/auth/azureoauth/callback" 
@@ -19,7 +19,7 @@
     };
     
     // Set the Azure tenant for your Office 365 Developer site.
-    appSettings.tenant = "contoso";  
+    appSettings.tenant = "DockerDemo";  
     
     appSettings.resources = {
         exchange : "https://outlook.office365.com/",
